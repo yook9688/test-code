@@ -8,6 +8,14 @@
 <link rel="stylesheet" href="./css/admin_common.css">
 <link rel="stylesheet" href="./css/admin_main.css">
 <script src="https://code.jquery.com/jquery-latest.js"></script>
+<script>
+    $(document).ready(function() {
+        $("main_btn_list li").on("hover", function(){
+            $("main_btn_box li a").css({"color":"#fff"
+                                       ,"background":"#363cff"});
+        });
+    });
+</script>
 </head>
 <body>
     <div class="wrap">
