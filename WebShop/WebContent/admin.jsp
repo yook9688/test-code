@@ -10,9 +10,13 @@
 <script src="https://code.jquery.com/jquery-latest.js"></script>
 <script>
     $(document).ready(function() {
-        $("main_btn_list li").on("hover", function(){
-            $("main_btn_box li a").css({"color":"#fff"
+        $(".main_btn_list li a").on("mouseover", function(){
+            $(this).css({"color":"#fff"
                                        ,"background":"#363cff"});
+        });
+        $(".main_btn_list li a").on("mouseout", function(){
+            $(this).css({"color":"#000"
+                                       ,"background":"#bdd6ff"});
         });
     });
 </script>
