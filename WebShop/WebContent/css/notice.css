@@ -1,0 +1,6 @@
+@charset "utf-8";
+ .contents {height: 500px; width: 1280px; margin: 0 auto;}
+ .row {display: block; width: 900px; margin: 0 auto; margin-top: 100px;}
+ .row th {width: 300px; text-align: center; height: 40px; border: 1px solid rgb(19, 67, 80); background-color: rgb(190, 214, 221);}
+ .row td {width: 300px; text-align: center; height: 40px; border: 1px solid #333;}
+ .btn {float: right; margin-top: 20px; width: 80px; height: 30px;} 
