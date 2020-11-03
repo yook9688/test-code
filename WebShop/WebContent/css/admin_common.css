@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+    /* 공통부분 */
+    * { margin: 0; padding: 0; }
+    body, html { width: 100%; min-width: 1280px; }
+    li { list-style: none; }
+    a { text-decoration: none; }
+    #point_txt {color: black;}
+    
+    /* 헤드부분 /   wrap 포함.  */
+    .wrap { width: 100%; position: relative;}
+    .hd {  width: 100%; height: 100px;}
+    .tnb { width: 100%; margin: 0 auto; height: 40px; background:fff; }
+    .top_menu { width: 1280px; margin: 0 auto; height: 40px; background:fff;}
+    .top_menu li { float:right;}
+    .top_menu li a, span {float: left; display: block; color: black; height: 40px; width: 100px; text-align: center; line-height: 40px; font-size: 12px; }
+    .top_menu li span { border-right: 1px solid rgb(230, 230, 230);} 
+    .login { border-right: 1px solid rgb(230, 230, 230);}
+    .gnb   {clear: both; width: 100%; border-bottom: 1px solid rgb(238, 238, 238);  background-color: white; height: 100px; overflow: hidden; position:relative;}
+    .gnb:hover {overflow: visible; position:absolute; }
+    .bot_menu li a:hover {color: skyblue;}
+    .submenu { width: 1280px; margin: 0 auto; background: white; opacity: 0.9; height: 200px; }
+    .submenu ul {width: 200px; float: left; margin-left: 70px;}
+    .submenu ul:first-child {margin-left: 270px;}
+    .submenu ul a {width: 200px; display: block; text-align: center; margin-top: 5px; color: black; font-size: 15px; font-weight: 550;line-height: 20px}
+    .submenu ul a:hover {color: skyblue;}
+    .submenu li { float: left; text-align: center; width: 200px; margin-bottom: 20px; font-weight: 550;}
+    .bot_menu {width: 1280px; height: 100px; margin: 0 auto;}
+    .bot_menu li a {float: left; color: black; font-weight: 550; font-size: 20px; display: block; width: 200px; height: 100px; line-height: 100px; text-align: center; margin-left: 70px;}
+    .bot_menu li a:first-child { margin-left: 0px; }
+
+    /* 푸터부분 */
+    .ft {background : #fff; height: 120px; border-top: 1px solid rgb(238, 238, 238); position: relative; }
+    .ft_btn {width: 200px; height: 30px; position: absolute; top: 15%; left: 860px;}
+    .ft_btn a {display: block; width: 200px; height: 30px; line-height: 30px; text-align: center; border: 1px solid #000; box-sizing: border-box; }
+    .ft ul {clear: both; width: 1280px; margin: 0 auto;}
+    .ft ul li {width: 100%; font-size: 15px; }
+    .ft ul li:first-child {padding-top: 60px;}
+    .ft ul li p {width: 100%; text-align: center;}
+ 

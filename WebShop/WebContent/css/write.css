@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+ .contents {height: 500px; width: 1280px; margin: 0 auto; margin-top: 300px;}
+ .row { width: 800px; margin: 0 auto;}
+ .row th {width: 800px; text-align: center; height: 40px; border: 1px solid rgb(19, 67, 80); background-color: rgb(190, 214, 221); margin: 0 auto;}
+ .row td {width: 300px; text-align: center; height: 40px; border: 1px solid #333;}
+ .row td input { width: 600px;}
+ .row td textarea { height: 300px;margin: 10px; width: 600px;}
+ .btn { width: 600px; margin-left: 100px; margin-top: 20px; background-color: rgb(190, 214, 221);}
+ .btn:hover { background-color: rgb(19, 67, 80); color: white;}
