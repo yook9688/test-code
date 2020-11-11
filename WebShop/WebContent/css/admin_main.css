@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.contents { clear: both; width: 100%; height: 700px; margin: 0 auto; margin-top: 45px;}
+.con_wrap { max-width: 1280px; height: 100%; margin: 0 auto;}
+.con_wrap h2 {text-align: center; padding-top: 100px; font-size: 40px; line-height: 40px;}
+.con_wrap h4 {text-align: center; margin: 40px 0px; font-size: 20px; line-height: 20px;}
+.main_btn_list {max-width: 1280px; height: 20px; margin: 0 auto; margin-top: 40px;}
+.main_btn_list li {float: left; width: 25%; height: 100%;}
+.main_btn_list li span {width: 100%; font-size: 20px; text-align: center;}
+.main_btn_box {width: 100%;; margin: 0 auto;}
+.main_btn_box li {float: left; width: 100%; height: 100%; margin: 10px 0px; box-sizing: content-box;}
+.main_btn_box li:first-child {margin-top: 30px;}
+.main_btn_box li a {display: block; width: 150px; height: 30px; line-height: 30px; text-align: center; 
+color:#000;  background:#bdd6ff; margin: 0 auto; border-radius: 10px }
