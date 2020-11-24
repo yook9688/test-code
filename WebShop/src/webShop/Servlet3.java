@@ -1,4 +1,4 @@
-package webShop;
+package WebShop;
 
 import java.io.IOException;
 import javax.servlet.ServletConfig;
@@ -27,21 +27,21 @@ public class Servlet3 extends HttpServlet {
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		System.out.println("ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù!");
+		System.out.println("ï¿½Ê±ï¿½È­ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½!");
 	}
 
 	/**
 	 * @see Servlet#destroy()
 	 */
 	public void destroy() {
-		System.out.println("ÀÛ¾÷ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("ÀÛ¾÷À» ½ÃÀÛÇÕ´Ï´Ù!");
+		System.out.println("ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½!");
 	}
 
 }

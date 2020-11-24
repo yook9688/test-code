@@ -1,4 +1,4 @@
-package webShop;
+package WebShop;
 
 import java.io.IOException;
 
@@ -11,17 +11,17 @@ public class Servlet2 extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("ÀÏÇØ¶ó ÀÏ");
+		System.out.println("ï¿½ï¿½ï¿½Ø¶ï¿½ ï¿½ï¿½");
 	}
 
 	@Override
 	public void destroy() {
-		System.out.println("ÀÛ¾÷³¡ Åð±Ù");
+		System.out.println("ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 	}
 
 	@Override
 	public void init() throws ServletException {
-		System.out.println("Ãâ±ÙÇßÀ¸´Ï ÀÏÇÒÁØºñ");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Øºï¿½");
 	}
 
 }

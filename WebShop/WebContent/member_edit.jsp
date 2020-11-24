@@ -34,7 +34,7 @@
 %>
 		<div class="content">
 			<div class="con_wrap">
-				<div class="con_tit"><h2>홈쇼핑 회원정보 수정</h2></div>
+				<div class="con_tit"><h2>회원정보 수정</h2></div>
 				<div class="con_box">
 					<form name="edit1" id="edit1" action="member_update.jsp" method="post">
 						<table>
@@ -49,11 +49,11 @@
 								</tr>
 								<tr>
 									<th><label for="m_name">회원성명</label></th>
-									<td><input type="text" id=m_phone name="userName" value="<%=userName%>" /></td>	
+									<td><input type="text" id=m_phone name="userName" value="<%=userName%>" readonly/></td>	
 								</tr>
 								<tr>
 									<th><label for="m_address">회원이메일</label></th>
-									<td><input type="email" id=m_address name="userEmail" value="<%=userEmail%>" /></td>	
+									<td><input type="email" id=m_address name="userEmail" value="<%=userEmail%>" readonly/></td>	
 								</tr>
 								<tr>
 								<td colspan="2">

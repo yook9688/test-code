@@ -21,17 +21,12 @@
 </head>
 <body>
 <%
-	session.setAttribute("id", "admin");
+	String userId = (String) session.getAttribute("userID");
+	System.out.println(userId);
 %>
-<%
-	if(session.getAttribute("id") != "admin") {
-%>
-<script>
-	alert("관리자계정으로 로그인하지 않으셨습니다. 현재 페이지는 관리자의 로그인이 필요합니다.");
-	history.go(-1);
-</script>
-<% 	
-	} else {
+<% if(userId != null) {
+	
+		if(userId.equals(session.getAttribute("userID"))) {
 %>
 <script>
 	$(document).ready(function(){
@@ -39,8 +34,20 @@
 	});
 </script>
 <%		
-	}
+		} else {	
 %>
+<script>
+	alert("관리자계정으로 로그인하지 않으셨습니다. 현재 페이지는 관리자의 로그인이 필요합니다.");
+	history.go(-1);
+</script>
+<% 		}
+	} else {
+	%>
+<script>
+	alert("로그인이 필요합니다.");
+	location.href="login.jsp";
+</script>
+<% } %>
     <div class="wrap">
         <jsp:include page="admin_header.jsp"></jsp:include>
         <div class="contents">
@@ -72,7 +79,7 @@
                         <span>CS관리</span>
                         <ul class="main_btn_box">
                             <li><a href="#">1:1문의 관리</a></li>
-                            <li><a href="#">Q&A관리</a></li>
+                            <li><a href="#">FAQ관리</a></li>
                         </ul>
                     </li>
                 </ul>

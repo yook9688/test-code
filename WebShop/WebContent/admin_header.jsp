@@ -43,7 +43,7 @@
                     </ul>
                     <ul>
                         <a href="#">1:1문의 관리</a>
-                        <a href="#">Q&A관리</a>
+                        <a href="#">FAQ관리</a>
                     </ul>  
                 </div>
             </nav>

@@ -1,4 +1,4 @@
-package webShop;
+package WebShop;
 
 import java.io.IOException;
 
